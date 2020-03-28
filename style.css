@@ -1,7 +1,336 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+
+
+body{
+    background: url(http://backgroundlabs.com/wp-content/uploads/2013/02/paw-print-seamless-pattern.png);
+    text-align: center;
 }
+.main
+{
+
+    /* width: 1040px; */
+    padding: 20px;
+    max-width: 900px;
+    width:70%;
+    margin: 0 auto;
+
+    text-align: left;
+    font: normal 400 12px 'Open Sans', Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    color: #231f20;
+    /* border-left:10px solid  goldenrod;
+    border-right: 10px solid  goldenrod; */
+    border: 10px solid SaddleBrown;
+    border-radius:30px;
+
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    background-color: BurlyWood;
+
+
+
+    
+}
+
+/* #manu li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+} */
+
+
+.header{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 43px;
+    border-bottom: 2px solid SaddleBrown;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+}
+
+.headerPic{
+    width:100%;
+    height:250px;
+    border-radius: 30px;
+    /* background-size: cover; */
+    background-size:100% 100%;
+    /* background-size: 30px 40px; */
+    /* background-size: contain; */
+    /* background-size: contain; */
+    background: url("bunner4.png");
+
+    /* background: url(https://image.freepik.com/free-vector/cute-cartoon-dog-faces-with-bones-seamless-pattern-wallpaper_40564-77.jpg ) ; */
+}
+
+/* li a{
+    display: block;
+    width:60px
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  } */
+  ul {
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+    overflow: hidden;
+  
+   
+  }
+  
+  li {
+    float: left;
+    font-family: cursive;
+    font-size:20px;
+    border: 2px solid bisque;
+    background-color: Peru;
+    /* border-radius: 20px; */
+    padding: 2px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: chocolate;
+  }
+  /* .picdiv{
+      width: 50%;
+      height:400px;
+      position: absolute;
+      left:50%;
+      top:50%;
+      transform: translate(-50%, 50%);
+      background-image: url("pic1.jpg");
+      background-size: 100% 100%;
+      box-shadow: 1px 2px 10px 5px white ;
+      animation:slider 20s infinite linear ;
+      border-radius: 30px;
+      position: absolute;
+
+  } */
+  .picdiv{
+    width: 100%;
+    height:400px;
+    /* position: absolute; */
+    /* left:50%; */
+    /* top:50%; */
+    /* transform: translate(-50%, 50%); */
+    background-color: burlywood;
+    /* background-size: 100% 100%; */
+    box-shadow: 1px 2px 10px 5px white ;
+    animation:slider 20s infinite ;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-size: 80% 100%; 
+     background-image: url("picpic11.jpeg");
+   
+     background-position: center center
+    /* background-position-x: auto;
+    background-position-y: auto; */
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* width: -webkit-fill-available; */
+
+}
+
+
+@keyframes slider{
+      0%{background-image: url("picpic.jpeg"); background-size: 70% 100%; background-color: black; }
+      10%{background-image: url("picpic2.jpeg");background-size: 70% 100%;background-color: black;}
+      20%{background-image: url("picpic3.jpeg"); background-size:70% 100%;background-color: black;}
+      30%{background-image: url("picpic4.jpeg");background-size: 70% 100%;background-color: black;}
+      40%{background-image: url("picpic5.jpeg");background-size:70% 100%;background-color: black;}
+      50%{background-image: url("picpic6.jpeg");background-size:70% 100%;background-color: black;}
+      60%{background-image: url("picpic7.jpeg");background-size:70% 100%;background-color: black;}
+      70%{background-image: url("picpic8.jpeg");background-size:90% 100%;background-color: black;}
+      80%{background-image: url("picpic9.jpeg");background-size:90% 100%;background-color: black;}
+      90%{background-image: url("picpic10.jpeg");background-size:90% 100%;background-color: black;}
+
+
+  }
+
+  .div1{
+    width: 57%;
+    height:400px;
+    display: inline-block;
+    /* background-color: red; */
+    float: left;
+    /* margin: 5px; */
+    /* margin-top: 50px; */
+   
+
+
+  }
+  .div2{
+    width:30%;
+    height:400px;
+    display: inline-block;
+    /* background-color: chartreuse; */
+    float: left;
+    /* margin: 30px; */
+    /* margin-top: 50px; */
+    
+
+  }
+
+  .middlediv{
+    width:100%;
+    height:700;
+    margin-top: 500px;
+    /* padding:10px */
+
+    /* display: inline-block; */
+    /* padding: 10px; */
+    /* background-color: chartreuse; */
+    
+  }
+    .mido{
+    width:100%;
+    height:700;
+    margin-bottom: 500px;
+     margin-top: 250px;
+    /* padding:10px */
+
+    /* display: inline-block; */
+    /* padding: 10px; */
+    /* background-color: chartreuse; */
+    
+  }
+
+
+  .playdiv{
+    width:100%;
+    height:700;
+    margin-top: 1000px;
+    /* padding:10px */
+
+    /* display: inline-block; */
+    /* padding: 10px; */
+    /* background-color: chartreuse; */
+    
+  }
+#facebook{
+    margin: 30px;
+    padding: 80px;
+
+    position: relative;
+}
+
+div{
+    text-align: center;
+}
+
+
+p{ color: #eee; font-family: 'Droid Sans', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0 0 14px; }
+span{
+    color: #866609; text-decoration: none; font-size: 25px;
+
+}
+
+
+.left {  line-height: 27px; font-family:cursive; font-size: 20px; float: left; margin-left: 5% ;margin-right:1%; width:42%; }
+
+
+.right { line-height: 27px;padding-left: 20px; border-left:5px solid #BA9566    ;font-family:cursive ;font-size: 20px; float: right;margin-right: 5%; width:42%; }
+
+.text{
+    width: 800;
+    height: 300px;
+    text-align: left;
+    margin-top: 100px;
+    /* text-align: center;
+    align-items: center; */
+}
+.headline{
+    text-align: left;
+    font-family:cursive; font-size: 30px;
+    margin-left: 10%
+}
+h2{
+    color: #BE853E;
+  
+
+}
+
+
+/* h1 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+     overflow: hidden;
+    text-align: center;
+    }  */
+    h1:before, h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 40%;
+    height: 5px;
+    content: '';
+    background-color: rgba(187, 107, 41, 0.822);
+    }
+    h1:before {
+    margin-left: -40%;
+    text-align: right;
+    }
+
+    h1 {   display: inline-block;font-size: 60px;font-family:cursive;
+        position: relative;
+        width:80%;
+         color: Sienna; font-weight: 400;
+          font-style: italic; 
+           margin-left: 10%; margin-right: 10%;  text-align: center;
+        margin-top: 10px; }
+
+        label{
+            font-family:cursive; font-size:20px;
+            color: white;
+            
+        }
+
+        .button {
+            background-color: #B3711D;
+            font-size: 20px;
+            padding: 10px 24px;
+            border-radius: 2px;
+            border: 2px solid #B3711D
+            ; /* Green */
+            transition-duration: 0.4s;
+            color: white;
+            border-radius: 5px;
+
+          }
+          .button:hover {
+            background-color: #CA924C;
+            color: white;
+
+            ; /* Green */
+          }
+          #Text{
+              border: 5px solid chocolate;
+              border-radius: 3px;
+          }
+
+
+    
