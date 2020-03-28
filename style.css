@@ -1,7 +1,7 @@
 
 
 body{
-    background: url(http://backgroundlabs.com/wp-content/uploads/2013/02/paw-print-seamless-pattern.png);
+    background: url(back.png);
     text-align: center;
 }
 .main
@@ -138,12 +138,12 @@ ul {
     background-color: burlywood;
     /* background-size: 100% 100%; */
     box-shadow: 1px 2px 10px 5px white ;
-    animation:slider 20s infinite ;
+    animation:slider 40s infinite ;
     border-radius: 30px;
     background-size: cover;
     background-repeat: no-repeat;
      background-size: 80% 100%; 
-     background-image: url("picpic11.jpeg");
+     background-image: url("p21.jpeg");
    
      background-position: center center
     /* background-position-x: auto;
@@ -156,17 +156,29 @@ ul {
 
 
 @keyframes slider{
-      0%{background-image: url("picpic.jpeg"); background-size: 70% 100%; background-color: black; }
-      10%{background-image: url("picpic2.jpeg");background-size: 70% 100%;background-color: black;}
-      20%{background-image: url("picpic3.jpeg"); background-size:70% 100%;background-color: black;}
-      30%{background-image: url("picpic4.jpeg");background-size: 70% 100%;background-color: black;}
-      40%{background-image: url("picpic5.jpeg");background-size:70% 100%;background-color: black;}
-      50%{background-image: url("picpic6.jpeg");background-size:70% 100%;background-color: black;}
-      60%{background-image: url("picpic7.jpeg");background-size:70% 100%;background-color: black;}
-      70%{background-image: url("picpic8.jpeg");background-size:90% 100%;background-color: black;}
-      80%{background-image: url("picpic9.jpeg");background-size:90% 100%;background-color: black;}
-      90%{background-image: url("picpic10.jpeg");background-size:90% 100%;background-color: black;}
 
+      
+      5%{background-image: url("p5.jpeg");background-size:100% 100%;background-color: black;}
+      10%{background-image: url("p6.jpeg");background-size:100% 100%;background-color: black;}
+      15%{background-image: url("p8.jpeg");background-size:100% 100%;background-color: black;}
+      20%{background-image: url("p10.jpeg");background-size:100% 100%;background-color: black;}
+      25%{background-image: url("p11.jpeg"); background-size: 100% 100%; background-color: black; }
+	  30%{background-image: url("p14.jpeg");background-size: 100% 100%;background-color: black;}
+      35%{background-image: url("p15.jpeg");background-size:100% 100%;background-color: black;}
+	  40%{background-image: url("p18.jpeg");background-size:100% 100%;background-color: black;}
+	  45%{background-image: url("p9.jpeg");background-size:90% 100%;background-color: black;}
+
+      50%{background-image: url("p12.jpeg");background-size:90% 100%;background-color: black;}
+      55%{background-image: url("p22.jpeg");background-size:80% 100%;background-color: black;}
+	  60%{background-image: url("p7.jpeg");background-size:70% 100%;background-color: black;}
+      65%{background-image: url("p13.jpeg"); background-size:60% 100%;background-color: black;}
+	  70%{background-image: url("p3.jpeg"); background-size:60% 100%;background-color: black;}
+	  75%{background-image: url("p16.jpeg");background-size:70% 100%;background-color: black;}
+	  80%{background-image: url("p2.jpeg"); background-size: 70% 100%; background-color: black; }
+      85%{background-image: url("p20.jpeg");background-size: 90% 100%;background-color: black;}
+      90%{background-image: url("p19.jpeg");background-size:90% 100%;background-color: black;}
+      95%{background-image: url("p1.jpeg");background-size:90% 100%;background-color: black;}
+	  100%{background-image: url("p4.jpeg");background-size: 100% 100%;background-color: black;}
 
   }
 
@@ -258,7 +270,7 @@ span{
     width: 800;
     height: 300px;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 40px;
     /* text-align: center;
     align-items: center; */
 }
@@ -331,6 +343,7 @@ h2{
               border: 5px solid chocolate;
               border-radius: 3px;
           }
-
+		  
+		  
 
     
