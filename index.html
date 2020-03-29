@@ -62,7 +62,7 @@
         <div class="div2">
             
             <h2 class="headline">Follow Me</h2>
-            <iframe name="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNika-103512767971908&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="370" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <iframe  class="facebook" name="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNika-103512767971908&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="370" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 			
   <br>
   <div class="fblike" data-href="https://sise-web-development-environments.github.io/311322077/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=1247&amp;href=https%3A%2F%2Fsise-web-development-environments.github.io%2F312464977%2F&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small"><span style="vertical-align: bottom; width: 450px; height: 20px;"><iframe name="fc689d6909461c" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v6.0/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df1229327f26348%26domain%3Dsise-web-development-environments.github.io%26origin%3Dhttps%253A%252F%252Fsise-web-development-environments.github.io%252Ff39ceb137eab2b8%26relation%3Dparent.parent&amp;container_width=1247&amp;href=https%3A%2F%2Fsise-web-development-environments.github.io%2F312464977%2F&amp;layout=standard&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=true&amp;size=small" style="border: none; visibility: visible; width: 450px; height: 20px;" class=""></iframe></span></div>
@@ -93,45 +93,52 @@
             
             <section id="spa" class="section">
             <br/>
-            ans
+           <h1><b>Answers</b></h1> 
+           <img class="que" src="Q1.png">
+           <img class="que" src="Q1.png">
+
             </section>
             
-            <section id="spa" class="section">
           
-            </section>
             
-            <section id="contact" class="section">
+            <section id="contact" class="section"> </section>
 
             <h1>Contact Me</h1>
             <form action="mailto:eden04060925@gmail.com"  method="post" enctype="text/plain">
                 <p> <label for="Name">Email:</label>
                     <input id="Name" name="Email" type="text" required="" placeholder="example@gmail.com">
                 </p>
-            </p>
+        
             <label for="Massage">Write Your Message:</label>
-            <p>
-                <p>
-                    <textarea id="Text" name="Message" rows="10" cols="40" required="" spellcheck="false"></textarea>
-                  </p>
+          
+              <p>  
+            <textarea id="Message" name="Message"  rows="20" cols="40" required="" spellcheck="false"></textarea>
+        </p>
+            <!-- <textarea id="Message" name="Message" placeholder="Type your text here..." style="width: 300px; height: 150px;"></textarea> -->
+                
+           
+                <label>Choose Emoji</label>
+                <br/>
+                <input type="radio" name="smiley" value="🐶" >🐶
+                <input type="radio" name="smiley" value="😁">😁
+                <input type="radio" name="smiley" value="😘">😘
+                <input type="radio" name="smiley" value="😍">😍
+                <button class="addButton" id="buttonForm" type="button" onclick="add()">Add</button>
+                <br/>
                 <input class="button" type="submit" value="Send" >
                 <input class="button" type="reset" value="Reset">
-                <select name="emoji" id="emo" onclick="add()" size="1" style="height:33px;width: 45px;">
-                    <option value="😀">😀</option>
-                  <option value="😁">😁</option>
-                  <option value="😘">😘</option>
-                  <option value="😉">😉</option>
-                  <option value="👍">👍</option>
-                 <option value="😭">😭</option>
-                 <option value="😍">😍</option>
-                 
-                 
-                </select>
                 </form>
-
-
-
-
-            </section>
+                <script> 
+                    function add() { 
+                        var ele = document.getElementsByName('smiley'); 
+                          
+                        for(i = 0; i < ele.length; i++) { 
+                            if(ele[i].checked) 
+                            document.getElementById("Message").value
+                                    +=ele[i].value; 
+                        } 
+                    } 
+                </script>        
             
             
             <script type="text/javascript">
@@ -154,4 +161,3 @@
 		 
 </body>
 </html>
-
