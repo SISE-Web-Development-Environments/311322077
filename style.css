@@ -10,7 +10,8 @@ body{
   padding: 20px;
   max-width: 900px;
   width:90%;
-  margin: 0 auto;
+/*   margin: 0 auto; */
+  margin-left:24%;
 
   text-align: left;
   font: normal 400 12px 'Open Sans', Helvetica, Arial, sans-serif;
@@ -431,7 +432,7 @@ h2{
         width: 9%;
         max-width: 100px;
         border-left: 2px solid chocolate;
-        border-right: 2px solid chocolate;
+/*         border-right: 2px solid chocolate; */
         
         background-image: url("backback.jpg");
 
