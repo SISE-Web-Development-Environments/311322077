@@ -10,9 +10,9 @@ body{
   padding: 20px;
   max-width: 900px;
   width:90%;
-  margin-left:24%;
+  /* margin-left:10%; */
   
-  /* margin: 0 auto; */
+  margin: 0 auto;
 
   text-align: left;
   font: normal 400 12px 'Open Sans', Helvetica, Arial, sans-serif;
@@ -138,7 +138,7 @@ li a:hover {
   /* background-size: 100% 100%; */
   box-shadow: 1px 2px 10px 5px white ;
   animation:slider 40s infinite ;
-  border-radius: 30x;
+  border-radius: 30px;
   background-size: cover;
   background-repeat: no-repeat;
    background-size: 80% 100%; 
@@ -451,8 +451,7 @@ h2{
       font-family: cursive;
       font-size: 100%;
       border: 2px solid bisque;
-      background-color:white;
-       /* rgb(185, 126, 66); */
+      background-color:rgb(185, 126, 66);
       width: 80%;
       height: 60px;
       margin:0 0 0 0;
