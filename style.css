@@ -420,7 +420,7 @@ h2{
     
     .sidebar {
         /* width: 100px; */
-        position: fixed;
+        position: relative;
         top: 0;
         left: 0;
         height: 100%;
@@ -437,6 +437,7 @@ h2{
         border-right: 2px solid chocolate;
         
         background-image: url("backback.jpg");
+        
 
        
 
