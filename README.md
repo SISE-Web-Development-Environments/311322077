@@ -10,8 +10,11 @@ I wrote on this website everything she told me.
 
 #Instructions:
 1.Read about Ester's life , family and childhood(you can also read more about Baghdad Jewry).
+
 2.Look on Ester's pictures and watch on her videos and audios.
+
 3. Contact to Ester, you can add an Emoji as much as you want.
 
-4.
-You can switch between options by pressing the menu-bar buttons
+4.QRcode , and Like button.
+
+5.You can switch between options by pressing the menu-bar buttons.
